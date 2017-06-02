@@ -1179,7 +1179,7 @@
     <Compile Include="NodePlayground\test\services\games.js">
       <SubType>Code</SubType>
     </Compile>
-    <Content Include="NodePlayground\.travis.yml">
+    <Content Include=".travis.yml">
       <SubType>Code</SubType>
     </Content>
     <Content Include="NodePlayground\bin\www" />
