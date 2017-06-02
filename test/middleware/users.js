@@ -42,7 +42,7 @@ describe('Users middleware', () => {
         request.cookies.userId = undefined;
         response = { cookie: sinon.spy() };
         //When
-        middleware(request, response, () => { })
+        middleware(request, response, () => { });
         //Then
         expect(request.user).to.exist;
         const newUserId = request.user.id;

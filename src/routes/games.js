@@ -11,7 +11,7 @@ const checkGameExists = function (id, res, callback) {
     } else {
         res.status(400).send('Non-existent game ID');
     }
-}
+};
 
 router.get('/:id', function (req, res, next) {
     checkGameExists(

@@ -39,7 +39,7 @@ describe('/games', () => {
                 .end(done);
         });
 
-        if ('should return a 404 for requests to delete a game that no longer exists', done => {
+        it('should return a 404 for requests to delete a game that no longer exists', done => {
             const game = gamesService.create(userId, 'test');
             agent
                 .delete('/games/${game.id}')

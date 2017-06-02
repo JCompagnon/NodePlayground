@@ -28,6 +28,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="gulpfile.js" />
     <Compile Include="integration-test\game.js" />
     <Compile Include="src\app.js" />
     <Compile Include="src\middleware\users.js">
@@ -49,6 +50,7 @@
     <Compile Include="test\services\games.js">
       <SubType>Code</SubType>
     </Compile>
+    <Content Include=".eslintrc.json" />
     <Content Include=".travis.yml">
       <SubType>Code</SubType>
     </Content>

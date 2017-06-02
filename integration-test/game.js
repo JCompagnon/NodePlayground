@@ -1,4 +1,6 @@
-﻿(function () {
+﻿/*eslint-env phantomjs */
+/*eslint-disable no-console*/
+(function () {
     'use strict';
 
     var expect = require('chai').expect;
@@ -65,7 +67,7 @@
                 console.log('Test failed!');
                 handleError(e.message);
             }
-        }
+        };
     }
     function handleError(message) {
         console.log(message);
