@@ -1169,7 +1169,7 @@
     </Compile>
     <Compile Include="NodePlayground\src\routes\index.js" />
     <Compile Include="NodePlayground\src\routes\users.js" />
-    <Compile Include="NodePlayground\test\integration-test\game.js">
+    <Compile Include="NodePlayground\integration-test\game.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="NodePlayground\test\middleware\users.js" />
@@ -1179,6 +1179,9 @@
     <Compile Include="NodePlayground\test\services\games.js">
       <SubType>Code</SubType>
     </Compile>
+    <Content Include="NodePlayground\.travis.yml">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="NodePlayground\bin\www" />
     <Content Include="NodePlayground\node_modules\.bin\extract-zip" />
     <Content Include="NodePlayground\node_modules\.bin\extract-zip.cmd" />
@@ -3133,7 +3136,7 @@
     <Folder Include="NodePlayground\src\routes\" />
     <Folder Include="NodePlayground\src\views\" />
     <Folder Include="NodePlayground\test\middleware\" />
-    <Folder Include="NodePlayground\test\integration-test\" />
+    <Folder Include="NodePlayground\integration-test\" />
     <Folder Include="NodePlayground\test\routes\" />
     <Folder Include="NodePlayground\test\services\" />
   </ItemGroup>
